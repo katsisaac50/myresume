@@ -11,7 +11,7 @@ class About extends Component {
         <h2>Katongole Isaac</h2>
         <img src={Isaac}
         alt="avatar"
-        style={{height:'300px'}}
+        style={{height:'400px', borderRadius:'200px'}}
         />
         <p style={{width:'75', margin:'auto', paddingTop: '1em' }}>
         My name is Katongole Isaac, I live in Hvalsø, Denmark. I am a frontend developer and passionate about computers. I also enjoy playing football and keeping myself in good shape.
