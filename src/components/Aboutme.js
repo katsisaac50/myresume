@@ -11,7 +11,7 @@ class About extends Component {
         <h2>Katongole Isaac</h2>
         <img src={Isaac}
         alt="avatar"
-        style={{height:'400px', borderRadius:'200px'}}
+        style={{height:'300px', borderRadius:'200px'}}
         />
         <p style={{width:'75', margin:'auto', paddingTop: '1em' }}>
         My name is Katongole Isaac, I live in Hvalsø, Denmark. I am a frontend developer and passionate about computers. I also enjoy playing football and keeping myself in good shape.
@@ -26,8 +26,8 @@ class About extends Component {
   <ListItem>
     <ListItemContent style={{fontSize:'30px',fontfamily:'Anton'}}>
     <i className="fas fa-phone" aria-hidden="true"/>
-    (45) 916-74160
-    </ListItemContent>
+    (+45) 916-74160
+  </ListItemContent>
   </ListItem>
   <ListItem>
     <ListItemContent style={{fontSize:'30px',fontfamily:'Anton'}}>
