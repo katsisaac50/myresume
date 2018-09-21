@@ -6,14 +6,11 @@ class Skills extends Component {
     return (
       <Grid>
         <Cell col={12}>
-          <div style={{display: 'flex'}}>
+          <div style={{display: 'flex', padding:'2px'}}>
             {this.props.skills}
             <ProgressBar style={{margin: 'auto',width: '75%'}} progress={this.props.progress} />
           </div>
-          <p>
-            {this.props.startYear}-
-            {this.props.endYear}
-          </p>
+         
         </Cell>
         <Cell col={4}>
           <h4 style={{marginTop: '0px'}}>{this.props.jobName}</h4>
