@@ -8,13 +8,12 @@ import Isaac from'../assets/Isaac1.png';
 class Resume extends Component {
   render () {
     return (
-      <div>
+      <div className='container'>
         <Grid>
-          <Cell col={4}>
+          <Cell col={4} className='resume-left-col'>
             <div style={{textAlign: 'center'}}>
               <img src={Isaac} alt='avater' style={{height: '300px', borderRadius:'800px'}} />
             </div>
-            <div></div>
             <h2 style={{paddingTop: '2em'}}>Katongole Isaac</h2>
             <h4 style={{color: 'grey'}}>Web Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
@@ -42,9 +41,8 @@ class Resume extends Component {
             <h2>Education</h2>
             <Education
             startYear={2018}
-            endYear={2018}
             schoolName='Hack Your future'
-            schoolDescription='Here, I obtained a Certificate in Web Development' />
+            schoolDescription='I obtained a Certificate in Web Development' />
             <hr style={{borderTop: '3px, solid #e22947'}} />
 
             <Education
@@ -52,13 +50,13 @@ class Resume extends Component {
               startYear={1994}
               endYear={2001}
               schoolName='Kisimbiri Primary School'
-              schoolDescription='Here, I obtained a Primary Leaving Certificate' />
+              schoolDescription='I obtained a Primary Leaving Certificate' />
             
             <Education
               startYear={2001}
               endYear={2005}
               schoolName='Hawa Secondary school'
-              schoolDescription='Here, I was awarded an ordinary certificate of education' />
+              schoolDescription='I was awarded an ordinary certificate of education' />
               
 
             <h2>Skills</h2>
@@ -66,7 +64,7 @@ class Resume extends Component {
             <Skills skills='HTML/CSS' progress={80} />
             <Skills skills='NodeJS' progress={50} />
             <Skills skills='React' progress={50} />
-            <Skills skills='Mysql' progress={40} />
+            <Skills skills='MySQL' progress={40} />
             <Skills skills='ReactiveSearch' progress={60} />
           </Cell>
         </Grid>
