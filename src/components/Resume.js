@@ -26,7 +26,7 @@ class Resume extends Component {
             </p>
             <h5>Phone</h5>
             <p>
-              (45) 916-74160
+              (+45) 916-74160
             </p>
             <h5>Email</h5>
             <p>
