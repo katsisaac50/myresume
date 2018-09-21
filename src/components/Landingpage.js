@@ -14,7 +14,7 @@ class Landingpage extends Component {
               <h1>Full Stack Web Developer</h1>
               <hr/>
               <p>
-                HTML/CSS|JavaScrip|React|DataBase|NodeJs
+                HTML/CSS  |JavaScrip  |React  |DataBase  |NodeJs
               </p>
               <div className='social-links'>
                 <a href='https://www.linkedin.com/in/katongole-isaac-2b27b6170/' rel='noopener noreferrer' target='_blank'><i className='fab fa-linkedin' aria-hidden='true' /></a>
