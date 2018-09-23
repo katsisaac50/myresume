@@ -14,6 +14,7 @@ import {
 import rtprjoject from '../assets/FirstReactProject.png';
 import rtprjoject2 from '../assets/reactproject.png';
 import chatimage from '../assets/chat.png';
+import Books from '../assets/books.png';
 
 class Projects extends Component {
   constructor(props) {
@@ -115,14 +116,14 @@ class Projects extends Component {
             <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
               <CardTitle
                 style={{
-                  color: '#fff',
+                  color: 'black',
                   height: '176px',
                   background: `url(${rtprjoject})center/cover`
                 }}
               >
-                React Project
+                NodeJS-Databases
               </CardTitle>
-              <CardText>react</CardText>
+              <CardText>NodeJS</CardText>
               <CardActions border>
                 <Button
                   colored
@@ -144,7 +145,7 @@ class Projects extends Component {
               >
                 express_server
               </CardTitle>
-              <CardText>Node</CardText>
+              <CardText>NodeJS</CardText>
               <CardActions border>
                 <Button
                   colored
@@ -165,19 +166,25 @@ class Projects extends Component {
               <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                 <CardTitle
                   style={{
-                    color: '#fff',
+                    color: 'black',
                     height: '176px',
                     background: `url(${chatimage})center/cover`
                   }}
                 >
-                  React Project
+                  node-babel-master
                 </CardTitle>
-                <CardText>react</CardText>
+                <CardText>NodeJS</CardText>
                 <CardActions border>
-                  <Button colored href="https://github.com/katsisaac50/ChatApp">
+                  <Button
+                    colored
+                    href="https://github.com/katsisaac50/node-babel-master"
+                  >
                     GitHub
                   </Button>
-                  <Button colored href="https://katsisaac50.github.io/ChatApp/">
+                  <Button
+                    colored
+                    href="https://github.com/katsisaac50/node-babel-master"
+                  >
                     LiveDemo
                   </Button>
                 </CardActions>
@@ -187,26 +194,102 @@ class Projects extends Component {
         );
       case 2:
         return (
-          <div>
-            <h1>This is React</h1>
+          <div className="projects-grid">
+            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+              <CardTitle
+                style={{
+                  color: 'black',
+                  height: '176px',
+                  background: `url(${rtprjoject})center/cover`
+                }}
+              >
+                JavaScript
+              </CardTitle>
+              <CardText>JS</CardText>
+              <CardActions border>
+                <Button colored href="https://github.com/katsisaac50/homeweek4">
+                  GitHub
+                </Button>
+                <Button colored href="https://katsisaac50.github.io/homeweek4/">
+                  LiveDemo
+                </Button>
+              </CardActions>
+            </Card>
+
+            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+              <CardTitle
+                style={{
+                  color: '#fff',
+                  height: '176px',
+                  background: `url(${Books})center/cover`
+                }}
+              >
+                Favorite Books
+              </CardTitle>
+              <CardText>JS</CardText>
+              <CardActions border>
+                <Button colored href="https://github.com/katsisaac50/week3Js">
+                  GitHub
+                </Button>
+                <Button colored href="https://katsisaac50.github.io/week3Js/">
+                  LiveDemo
+                </Button>
+              </CardActions>
+            </Card>
+
+            {
+              <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                <CardTitle
+                  style={{
+                    color: 'black',
+                    height: '176px',
+                    background: `url(${chatimage})center/cover`
+                  }}
+                >
+                  Using Map, Filter, and Reduce
+                </CardTitle>
+                <CardText>JS</CardText>
+                <CardActions border>
+                  <Button
+                    colored
+                    href="https://github.com/katsisaac50/week8-homework"
+                  >
+                    GitHub
+                  </Button>
+                  <Button
+                    colored
+                    href="https://katsisaac50.github.io/week8-homework/"
+                  >
+                    LiveDemo
+                  </Button>
+                </CardActions>
+              </Card>
+            }
           </div>
         );
       case 3:
         return (
-          <div>
-            <h1>This is React</h1>
-          </div>
-        );
-      case 4:
-        return (
-          <div>
-            <h1>This is React</h1>
-          </div>
-        );
-      default:
-        return (
-          <div>
-            <h1>No active Tab</h1>
+          <div className="projects-grid">
+            <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+              <CardTitle
+                style={{
+                  color: 'black',
+                  height: '176px',
+                  background: `url(${rtprjoject})center/cover`
+                }}
+              >
+                MySQL
+              </CardTitle>
+              <CardText>Database</CardText>
+              <CardActions border>
+                <Button colored href="https://github.com/katsisaac50/mysql">
+                  GitHub
+                </Button>
+                <Button colored href="https://github.com/katsisaac50/mysql">
+                  LiveDemo
+                </Button>
+              </CardActions>
+            </Card>
           </div>
         );
     }
@@ -222,7 +305,7 @@ class Projects extends Component {
         >
           <Tab>React</Tab>
           <Tab>NodeJS</Tab>
-          <Tab>JavaScrip</Tab>
+          <Tab>JavaScript</Tab>
           <Tab>Database</Tab>
         </Tabs>
 
