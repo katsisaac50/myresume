@@ -8,8 +8,8 @@ import {
   Card,
   CardTitle,
   CardActions,
-  Button,
-  IconButton
+  Button
+  // IconButton
 } from 'react-mdl';
 import rtprjoject from '../assets/FirstReactProject.png';
 import rtprjoject2 from '../assets/reactproject.png';
@@ -290,6 +290,12 @@ class Projects extends Component {
                 </Button>
               </CardActions>
             </Card>
+          </div>
+        );
+      default:
+        return (
+          <div className="projects-grid">
+            <p>Oops No match</p>
           </div>
         );
     }
